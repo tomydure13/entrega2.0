@@ -5,8 +5,9 @@
     text-align: center;
     margin-bottom: 1rem;
 }
-.img {
-    font-size: 100%;
+.imagenini {
+    width: 500px;
+    height: 500px;
 }
 
 footer {
@@ -17,11 +18,13 @@ footer {
 main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 5px;
+    text-align: left;
 }
 
 @media (max-width: 1199px) {
     main {
         margin: 2px;
+        text-align: center;
     }
     footer {
         font-family: monospace;
